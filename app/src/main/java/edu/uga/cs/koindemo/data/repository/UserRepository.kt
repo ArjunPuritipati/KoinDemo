@@ -21,5 +21,6 @@ class UserRepository(private val api: UserApi) {
             User(10, "maya", "maya@example.org")
         )
         return Result.success(fakeUser)
+
     }
 }
