@@ -2,9 +2,8 @@ package edu.uga.cs.koindemo.ui.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.koinexample.utils.UserUiState
-import com.example.koinexample.data.repository.UserRepository
 import edu.uga.cs.koindemo.data.repository.UserRepository
+import edu.uga.cs.koindemo.utils.UserUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
